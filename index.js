@@ -5,8 +5,8 @@ const Contact=require("./models/contacts.model")
 
 
 //Database Connection
-//mongoose.connect('mongodb+srv://aadiesbooks:uNGfVm6g6pwN%40a!@cluster0.sb6yada.mongodb.net/')
-mongoose.connect('mongodb://127.0.0.1:27017/contacts-crud') 
+mongoose.connect('mongodb+srv://aadiesbooks:uNGfVm6g6pwN%40a!@cluster0.sb6yada.mongodb.net/')
+//mongoose.connect('mongodb://127.0.0.1:27017/contacts-crud') 
 .then(() => console.log("Database Connected"))
 
 //middleware
